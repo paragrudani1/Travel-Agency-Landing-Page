@@ -1,0 +1,31 @@
+<svg width="600" height="30" viewBox="0 0 600 30" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="indian-border" width="120" height="30" patternUnits="userSpaceOnUse">
+      <!-- Base border line -->
+      <rect x="0" y="25" width="120" height="5" fill="#D1913C" opacity="0.5" />
+      
+      <!-- Repeating triangle pattern -->
+      <path d="M0,25 L10,15 L20,25 L30,15 L40,25 L50,15 L60,25 L70,15 L80,25 L90,15 L100,25 L110,15 L120,25" 
+        stroke="#8B4513" stroke-width="1" fill="none" />
+      
+      <!-- Decorative dots -->
+      <circle cx="10" cy="15" r="2" fill="#E6C281" />
+      <circle cx="30" cy="15" r="2" fill="#E6C281" />
+      <circle cx="50" cy="15" r="2" fill="#E6C281" />
+      <circle cx="70" cy="15" r="2" fill="#E6C281" />
+      <circle cx="90" cy="15" r="2" fill="#E6C281" />
+      <circle cx="110" cy="15" r="2" fill="#E6C281" />
+      
+      <!-- Small paisley motifs -->
+      <path d="M20,8 C22,12 26,10 20,15 C14,20 18,22 20,18 C22,22 26,20 20,15 C14,10 18,12 20,8Z" 
+        fill="#D1913C" fill-opacity="0.6" stroke="#8B4513" stroke-width="0.3" />
+        
+      <path d="M60,8 C62,12 66,10 60,15 C54,20 58,22 60,18 C62,22 66,20 60,15 C54,10 58,12 60,8Z" 
+        fill="#D1913C" fill-opacity="0.6" stroke="#8B4513" stroke-width="0.3" />
+        
+      <path d="M100,8 C102,12 106,10 100,15 C94,20 98,22 100,18 C102,22 106,20 100,15 C94,10 98,12 100,8Z" 
+        fill="#D1913C" fill-opacity="0.6" stroke="#8B4513" stroke-width="0.3" />
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#indian-border)" />
+</svg>
